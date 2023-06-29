@@ -39,9 +39,15 @@ img {
 
 body {
   height: 95vh;
-  font-size: 2em;
+  font-size: 24px;
   font-weight: bold;
-  color: whitesmoke;
+  color: white;
+  text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black, 0 -0.05em black,
+    -0.05em -0.05em black, -0.05em 0.05em black, 0.05em -0.05em black,
+    0.05em 0.05em black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #content {
   display: grid;

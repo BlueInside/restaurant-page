@@ -1,22 +1,37 @@
 export default function () {
-  const body = document.querySelector("body");
-  body.classList.add("bg");
-
   const content = document.getElementById("content");
-
-  const element = document.createElement("div");
-  const restaurantName = document.createElement("div");
-
+  const firstItem = document.createElement("div");
   const header1 = document.createElement("h1");
-  header1.innerText = "Simple Food";
+  let para = document.createElement("p");
+  let span = document.createElement("span");
 
-  restaurantName.appendChild(header1);
+  firstItem.classList.add("grid-item");
 
-  const description = document.createElement("div");
-  description.innerText =
-    "welcome to our restaurant where every flavor tells a story.";
+  header1.classList.add("item-title");
+  header1.innerText = "Restaurant name";
+  para.innerText = "Short description lorem lorem lorem lorem lorem";
 
-  element.append(restaurantName, description);
+  firstItem.append(header1, para);
+  content.appendChild(firstItem);
 
-  content.appendChild(element);
+  const secondItem = document.createElement("div");
+  secondItem.classList.add("grid-item");
+  span.classList.add("item-title");
+  span.innerText = "Opening Hours";
+  para = document.createElement("p");
+  para.innerText = "Mon-Fri 08:00-22:00 \n Weekend 10:00-05:00";
+
+  secondItem.append(span, para);
+  content.appendChild(secondItem);
+
+  const thirdItem = document.createElement("div");
+  thirdItem.classList.add("grid-item");
+  span = document.createElement("span");
+  span.classList.add("item-title");
+  span.innerText = "Location";
+  para = document.createElement("p");
+  para.innerText = "123 Mountain Field, Niedaleko Puszczy, Avenue";
+
+  thirdItem.append(span, para);
+  content.appendChild(thirdItem);
 }
