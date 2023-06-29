@@ -49,10 +49,25 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 }
+button {
+  height: 40px;
+  width: 20%;
+  background-color: #43cd3a7d;
+  box-shadow: red;
+  border-radius: 40px;
+  border: none;
+  transition: 0.3s;
+}
+.clicked {
+  background-color: blueviolet;
+}
+button:hover {
+  background-color: pink;
+}
 .buttons {
   display: flex;
   align-content: stretch;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 150px;
 }
