@@ -2,7 +2,7 @@
 ## Project: Restaurant Page
 + I continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage. I am using JavaScript alone to generate the entire contents of the website. The project is from The Odin Project curriculum.
 
-+ link Live preview of the project is [here](https://github.com/BlueInside/restaurant-page/deployments/activity_log?environment=github-pages)
++ link Live preview of the project is [here](https://blueinside.github.io/restaurant-page/)
 
 # Overview
 ## Features:
