@@ -8,8 +8,8 @@ export default function () {
   firstItem.classList.add("grid-item");
 
   header1.classList.add("item-title");
-  header1.innerText = "Restaurant name";
-  para.innerText = "Short description lorem lorem lorem lorem lorem";
+  header1.innerText = "Polish kitchen";
+  para.innerText = "Where every flavor tells a story.";
 
   firstItem.append(header1, para);
   content.appendChild(firstItem);

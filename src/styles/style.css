@@ -70,6 +70,8 @@ button:hover {
   justify-content: space-evenly;
   align-items: center;
   height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .container {
   width: 500px;
@@ -112,4 +114,10 @@ h1 {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 22px;
+  }
 }

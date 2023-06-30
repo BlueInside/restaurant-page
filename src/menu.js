@@ -4,21 +4,21 @@ export default function () {
   let menuTitle = document.createElement("span");
 
   addNewMenu("Appetizers");
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
+  populateMenuTitle("Raw Carrot Salad", 4.99);
+  populateMenuTitle("Pickle Herring", 5.99);
+  populateMenuTitle("Steak Tartare", 5.99);
   content.appendChild(container);
 
   addNewMenu("Mains");
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
+  populateMenuTitle("Pierogi", 12.99);
+  populateMenuTitle("Cabbage Rolls", 10.99);
+  populateMenuTitle("Potato Pancakes", 10.49);
   content.appendChild(container);
 
   addNewMenu("Drinks");
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
-  populateMenuTitle("xyz", 25);
+  populateMenuTitle("Vodka", 3.99);
+  populateMenuTitle("Apple Juice", 2.99);
+  populateMenuTitle("Strawberry Compote", 1.99);
   content.appendChild(container);
 
   function populateMenuTitle(name, price) {
